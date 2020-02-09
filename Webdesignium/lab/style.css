@@ -46,3 +46,48 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* Structure */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/* Header */
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-3 {
+  width: 33%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+
+/* font */
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 20px;
+}
