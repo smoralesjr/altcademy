@@ -46,17 +46,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ea63fe429f74aa99076e15ecd967b0af82becfff
 /* Structure */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-<<<<<<< HEAD
 
 .container {
   max-width: 960px;
@@ -72,8 +68,6 @@ table {
   display: inline-block;
 }
 
-=======
->>>>>>> ea63fe429f74aa99076e15ecd967b0af82becfff
 /* clearfix */
 .clearfix:before, .clearfix:after {
   content: "";
@@ -94,7 +88,6 @@ table {
 nav {
   float: right;
 }
-<<<<<<< HEAD
 
 /* font */
 h1, h2, h3, h4, h5, p {
@@ -175,24 +168,4 @@ h2 {
 
 figcaption {
   margin-top: 10px;
-=======
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.col-3 {
-  width: 33%;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: inline-block;
-}
-
-
-/* font */
-h1, h2, h3, h4, h5, p {
-  margin-bottom: 20px;
->>>>>>> ea63fe429f74aa99076e15ecd967b0af82becfff
 }
