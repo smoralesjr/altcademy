@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -45,4 +45,127 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* Structure */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-3 {
+  width: 33%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/* Header */
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+/* font */
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 20px;
+}
+
+body {
+  padding: 20px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+figure {
+  margin-bottom: 20px;
+}
+
+/* custom styles */
+body {
+  color: #192A53;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+
+.logo {
+  padding: 30px 0 15px 0;
+  letter-spacing: 0.1em;
+}
+
+nav {
+  margin: 95px 0 15px 0;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#main-content {
+  text-align: center;
+}
+
+#main-content > p {
+  margin: 40px 0;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+header, footer {
+  background: #64E3EE;
+}
+
+#main-content > img {
+  margin-top: 30px;
+  background: linear-gradient(#fff, #64E3EE 90%);
+  padding: 15px;
+  border-radius: 15%;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+
+figcaption {
+  margin-top: 10px;
 }
