@@ -111,3 +111,10 @@ table {
 nav {
   background-color: #333;
 }
+
+#hero-right-block {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
